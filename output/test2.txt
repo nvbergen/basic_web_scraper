@@ -1,0 +1,782 @@
+<html lang="en">
+ <head>
+  <style>
+   body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; }
+  </style>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <base href="https://publish.obsidian.md"/>
+  <script defer="defer" src="/app.js?4a5bbe063c99e5a475ec">
+  </script>
+  <link as="style" href="/app.css?4a5bbe063c99e5a475ec" onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet"/>
+  <noscript>
+   <link href="/app.css?4a5bbe063c99e5a475ec" rel="stylesheet"/>
+  </noscript>
+  <title>
+   Cornell Notes in Obsidian - Nexus Veritas
+  </title>
+  <link as="style" href="https://publish-01.obsidian.md/access/b486ac31e95cb79097a873efeba90dd1/publish.css" onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet"/>
+  <noscript>
+   <link href="https://publish-01.obsidian.md/access/b486ac31e95cb79097a873efeba90dd1/publish.css" rel="stylesheet"/>
+  </noscript>
+  <link href="/favicon.ico?4a5bbe063c99e5a475ec" rel="icon"/>
+  <script type="text/javascript">
+   window.siteInfo={"uid":"b486ac31e95cb79097a873efeba90dd1","host":"publish-01.obsidian.md","status":"active","slug":null,"redirect":true,"customurl":"notes.nickvanbergen.com"};
+(function(){
+	let f = u=>u&&fetch(u,{credentials: "include"});
+	window.preloadOptions=f("https://publish-01.obsidian.md/options/b486ac31e95cb79097a873efeba90dd1");
+	window.preloadCache=f("https://publish-01.obsidian.md/cache/b486ac31e95cb79097a873efeba90dd1");
+	window.preloadPage=f("https://publish-01.obsidian.md/access/b486ac31e95cb79097a873efeba90dd1/Cornell%20Notes%20in%20Obsidian.md");
+})();
+  </script>
+  <meta content="Nexus Veritas" property="og:site_name"/>
+  <meta content="Cornell Notes in Obsidian - Nexus Veritas" name="description"/>
+  <meta content="Cornell Notes in Obsidian - Nexus Veritas" property="og:description"/>
+ </head>
+ <body class="native-scrollbars theme-light">
+  <script type="text/javascript">
+   (function(){let t=localStorage.getItem('site-theme'),cl=document.body.classList;if(t&&t!=='light') {cl.remove('theme-light');cl.add('theme-'+t)}})();
+  </script>
+  <readwise-tooltip-container>
+  </readwise-tooltip-container>
+  <div class="published-container print is-readable-line-width has-navigation has-graph has-outline" style="">
+   <div class="site-body">
+    <div class="site-body-left-column">
+     <div class="site-body-left-column-inner">
+      <a aria-label="Nexus Veritas logo" class="site-body-left-column-site-logo" href="https://notes.nickvanbergen.com/_Welcome">
+       <img aria-hidden="true" style="display: none;"/>
+      </a>
+      <a aria-label="Nexus Veritas" class="site-body-left-column-site-name" href="https://notes.nickvanbergen.com/_Welcome">
+       Nexus Veritas
+      </a>
+      <div class="site-body-left-column-site-theme-toggle" style="">
+       <span class="option mod-dark">
+        <svg class="svg-icon lucide-moon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z">
+         </path>
+        </svg>
+       </span>
+       <div class="checkbox-container">
+       </div>
+       <span class="option mod-light">
+        <svg class="svg-icon lucide-sun" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <circle cx="12" cy="12" r="4">
+         </circle>
+         <path d="M12 2v2">
+         </path>
+         <path d="M12 20v2">
+         </path>
+         <path d="m4.93 4.93 1.41 1.41">
+         </path>
+         <path d="m17.66 17.66 1.41 1.41">
+         </path>
+         <path d="M2 12h2">
+         </path>
+         <path d="M20 12h2">
+         </path>
+         <path d="m6.34 17.66-1.41 1.41">
+         </path>
+         <path d="m19.07 4.93-1.41 1.41">
+         </path>
+        </svg>
+       </span>
+      </div>
+      <div class="search-view-outer">
+       <div class="search-view-container">
+        <span class="published-search-icon">
+         <svg class="svg-icon lucide-search" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="11" cy="11" r="8">
+          </circle>
+          <path d="m21 21-4.3-4.3">
+          </path>
+         </svg>
+        </span>
+        <input class="search-bar" placeholder="Search page or heading..." type="text"/>
+       </div>
+      </div>
+      <div class="nav-view-outer">
+       <div class="nav-view">
+        <div class="tree-item">
+         <div class="tree-item-self mod-root is-clickable" data-path="">
+          <div class="tree-item-inner">
+          </div>
+         </div>
+         <div class="tree-item-children">
+          <div class="tree-item">
+           <div class="tree-item-self is-clickable" data-path="_Welcome.md">
+            <div class="tree-item-inner">
+             <a href="https://notes.nickvanbergen.com/_Welcome">
+              _Welcome
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="tree-item">
+           <div class="tree-item-self is-clickable mod-active" data-path="Cornell Notes in Obsidian.md">
+            <div class="tree-item-inner">
+             <a href="https://notes.nickvanbergen.com/Cornell+Notes+in+Obsidian">
+              Cornell Notes in Obsidian
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="tree-item">
+           <div class="tree-item-self is-clickable" data-path="Nexus - DataX.md">
+            <div class="tree-item-inner">
+             <a href="https://notes.nickvanbergen.com/Nexus+-+DataX">
+              Nexus - DataX
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="tree-item">
+           <div class="tree-item-self is-clickable" data-path="Nexus - Personal Knowledge Management.md">
+            <div class="tree-item-inner">
+             <a href="https://notes.nickvanbergen.com/Nexus+-+Personal+Knowledge+Management">
+              Nexus - Personal Knowledge Management
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="tree-item">
+           <div class="tree-item-self is-clickable" data-path="Nexus - Programming.md">
+            <div class="tree-item-inner">
+             <a href="https://notes.nickvanbergen.com/Nexus+-+Programming">
+              Nexus - Programming
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="site-body-center-column">
+     <div class="site-header">
+      <div class="clickable-icon">
+       <svg class="svg-icon lucide-menu" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <line x1="4" x2="20" y1="12" y2="12">
+        </line>
+        <line x1="4" x2="20" y1="6" y2="6">
+        </line>
+        <line x1="4" x2="20" y1="18" y2="18">
+        </line>
+       </svg>
+      </div>
+      <a aria-hidden="true" class="site-header-logo" href="https://notes.nickvanbergen.com/_Welcome" style="display: none;">
+       <img/>
+      </a>
+      <a class="site-header-text" href="https://notes.nickvanbergen.com/_Welcome">
+       Nexus Veritas
+      </a>
+     </div>
+     <div class="render-container">
+      <div class="render-container-inner">
+       <div class="publish-renderer">
+        <div class="markdown-preview-view markdown-rendered node-insert-event cornell-left cornell-border">
+         <div class="markdown-preview-sizer markdown-preview-section" style="padding-bottom: 0px;">
+          <div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;">
+          </div>
+          <div class="mod-header mod-ui">
+          </div>
+          <div class="el-pre mod-frontmatter mod-ui">
+           <pre class="frontmatter language-yaml" style="display: none;" tabindex="0"><code class="is-loaded language-yaml"><span class="token key atrule">publish</span><span class="token punctuation">:</span> <span class="token string">"true"</span>
+<span class="token key atrule">note_type</span><span class="token punctuation">:</span> topic_note
+<span class="token key atrule">cssclasses</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> cornell<span class="token punctuation">-</span>left
+  <span class="token punctuation">-</span> cornell<span class="token punctuation">-</span>border</code></pre>
+          </div>
+          <div class="el-h1">
+           <h1 class="publish-article-heading" data-heading="Cornell Notes in Obsidian" dir="auto">
+            <span class="heading-collapse-indicator collapse-indicator collapse-icon">
+             <svg class="svg-icon right-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L12 17L21 8">
+              </path>
+             </svg>
+            </span>
+            Cornell Notes in Obsidian
+            <span aria-label="Copy link" class="clickable-icon">
+             <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+              </path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+              </path>
+             </svg>
+            </span>
+           </h1>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="cue" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z">
+               </path>
+               <path d="m15 5 4 4">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              <a aria-label="https://tfthacker.com/about" class="external-link" data-tooltip-position="top" href="https://tfthacker.com/about" rel="noopener nofollow" target="_blank">
+               TfT Hacker Bio
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            The main tool I use for taking
+            <em>
+             literature-style notes
+            </em>
+            in obsidian is the tool from the TfT hacker.  Read about them
+            <a aria-label="https://tfthacker.com/about" class="external-link" data-tooltip-position="top" href="https://tfthacker.com/about" rel="noopener nofollow" target="_blank">
+             here
+            </a>
+           </p>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="warning" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-alert-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z">
+               </path>
+               <path d="M12 9v4">
+               </path>
+               <path d="M12 17h.01">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              Obsidian publish does not support CSS snippets
+             </div>
+            </div>
+            <div class="callout-content">
+             <p dir="auto">
+              Therefore cornell notes will not render on the publish site.
+             </p>
+            </div>
+           </div>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="note" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z">
+               </path>
+               <path d="m15 5 4 4">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              Nomenclature: topic note
+              <em>
+               Nexus Veritas
+              </em>
+             </div>
+            </div>
+            <div class="callout-content">
+             <p dir="auto">
+              In my world I like to call my literature notes, topic notes and this note is a topic note.
+             </p>
+            </div>
+           </div>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            I particularly like using the
+            <a aria-label="Cornell Note taking system" class="internal-link is-unresolved" data-href="Cornell Note taking system" data-tooltip-position="top" href="https://notes.nickvanbergen.com/Cornell+Note+taking+system" rel="noopener nofollow" target="_blank">
+             Cornell system
+            </a>
+            because it helps me keep my ideas organized and easily re-read later. Especially useful in a system like obsidian.
+           </p>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="cue" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z">
+               </path>
+               <path d="m15 5 4 4">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              Quick explainer
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="el-iframe">
+           <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" sandbox="allow-forms allow-modals allow-presentation allow-popups allow-same-origin allow-scripts" src="https://www.youtube.com/embed/ai9P4_E0WLg?si=5qG31xMJRH1UvyKB" title="YouTube video player" width="560">
+           </iframe>
+          </div>
+          <div class="el-h2">
+           <h2 class="publish-article-heading" data-heading="Notes" dir="auto">
+            <span class="heading-collapse-indicator collapse-indicator collapse-icon">
+             <svg class="svg-icon right-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L12 17L21 8">
+              </path>
+             </svg>
+            </span>
+            Notes
+            <span aria-label="Copy link" class="clickable-icon">
+             <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+              </path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+              </path>
+             </svg>
+            </span>
+           </h2>
+          </div>
+          <div class="el-h3">
+           <h3 class="publish-article-heading" data-heading="CSS Snippets" dir="auto">
+            <span class="heading-collapse-indicator collapse-indicator collapse-icon">
+             <svg class="svg-icon right-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L12 17L21 8">
+              </path>
+             </svg>
+            </span>
+            CSS Snippets
+            <span aria-label="Copy link" class="clickable-icon">
+             <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+              </path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+              </path>
+             </svg>
+            </span>
+           </h3>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="cue" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z">
+               </path>
+               <path d="m15 5 4 4">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              CSS Snippets not supported
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            Using the wonderful Cornell Notes CSS snippet in Obsidian works fine across devices in my experience.
+           </p>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            However, CSS snippets in general are not supported in
+            <a class="internal-link is-unresolved" data-href="Obsidian Publish" href="https://notes.nickvanbergen.com/Obsidian+Publish" rel="noopener nofollow" target="_blank">
+             Obsidian Publish
+            </a>
+            out of the box.
+           </p>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="cue" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z">
+               </path>
+               <path d="m15 5 4 4">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              Workaround:
+              <a aria-label="https://forum.obsidian.md/t/how-to-apply-custom-css-snippets-to-obsidian-publish/13826" class="external-link" data-tooltip-position="top" href="https://forum.obsidian.md/t/how-to-apply-custom-css-snippets-to-obsidian-publish/13826" rel="noopener nofollow" target="_blank">
+               publish.css
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            There is a workaround published in the
+            <a aria-label="https://forum.obsidian.md/t/how-to-apply-custom-css-snippets-to-obsidian-publish/13826" class="external-link" data-tooltip-position="top" href="https://forum.obsidian.md/t/how-to-apply-custom-css-snippets-to-obsidian-publish/13826" rel="noopener nofollow" target="_blank">
+             Obsidian user forums
+            </a>
+            that appears to work. The link is also in the cue.
+           </p>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            The only difficulty is that the summary extends across the entire page and obscures the navigation list on the left.
+           </p>
+          </div>
+          <div class="el-h3">
+           <h3 class="publish-article-heading" data-heading="Summaries zz" dir="auto">
+            <span class="heading-collapse-indicator collapse-indicator collapse-icon">
+             <svg class="svg-icon right-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L12 17L21 8">
+              </path>
+             </svg>
+            </span>
+            Summaries zz
+            <span aria-label="Copy link" class="clickable-icon">
+             <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+              </path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+              </path>
+             </svg>
+            </span>
+           </h3>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            Summaries work by adding a callout called
+            <code>
+             [! summary]
+            </code>
+            .
+           </p>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            The TfT hacker tool has options for the summary to be at the bottom of the page, standard in Cornell System. Or it has the option to make summaries at the top of a page with
+            <code>
+             [! summary -top]
+            </code>
+           </p>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            The problem is not that the summaries are not working; they work fine.
+           </p>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            The problem is how Obsidian Publish handles the code in the CSS and how it applies "site level" style elements (navigation list, site name, backlinks (if enabled), etc.). That is, all the extra stuff that Obsidian Publish does to render your vault page as a static web page is making the summary callout not function as intended.
+           </p>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="cue" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z">
+               </path>
+               <path d="m15 5 4 4">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              Problem/Bug Log
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="el-h4">
+           <h4 class="publish-article-heading" data-heading="Problems using `[! summary-top]`" dir="auto">
+            <span class="heading-collapse-indicator collapse-indicator collapse-icon">
+             <svg class="svg-icon right-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L12 17L21 8">
+              </path>
+             </svg>
+            </span>
+            Problems using
+            <code>
+             [! summary-top]
+            </code>
+            <span aria-label="Copy link" class="clickable-icon">
+             <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+              </path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+              </path>
+             </svg>
+            </span>
+           </h4>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            Using the style of summary at the top of your documents is best on your local vault. However, given the way that Obsidian Publish renders pages in its standard theme, at this time,I am not recommending the use of top summaries.
+           </p>
+          </div>
+          <div class="el-h4">
+           <h4 class="publish-article-heading" data-heading="Problems using `[! summary]` (at the bottom)" dir="auto">
+            <span class="heading-collapse-indicator collapse-indicator collapse-icon">
+             <svg class="svg-icon right-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L12 17L21 8">
+              </path>
+             </svg>
+            </span>
+            Problems using
+            <code>
+             [! summary]
+            </code>
+            (at the bottom)
+            <span aria-label="Copy link" class="clickable-icon">
+             <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+              </path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+              </path>
+             </svg>
+            </span>
+           </h4>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            When a summary callout box is rendered it sits in a static position, in this use case at the bottom of the page, and it also sits on top of any content that might be in the document or on the page.
+           </p>
+          </div>
+          <div class="el-p">
+           <p dir="auto">
+            Again the code is doing exactly what it is instructed to do AND Obsidian Publish (standard theme) is also doing what it is supposed to do.
+           </p>
+          </div>
+          <div class="el-h2">
+           <h2 class="publish-article-heading" data-heading="Resources" dir="auto">
+            <span class="heading-collapse-indicator collapse-indicator collapse-icon">
+             <svg class="svg-icon right-triangle" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L12 17L21 8">
+              </path>
+             </svg>
+            </span>
+            Resources
+            <span aria-label="Copy link" class="clickable-icon">
+             <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+              </path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+              </path>
+             </svg>
+            </span>
+           </h2>
+          </div>
+          <div class="el-div">
+           <div class="callout" data-callout="cue" data-callout-fold="" data-callout-metadata="">
+            <div class="callout-title" dir="auto">
+             <div class="callout-icon">
+              <svg class="svg-icon lucide-pencil" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z">
+               </path>
+               <path d="m15 5 4 4">
+               </path>
+              </svg>
+             </div>
+             <div class="callout-title-inner">
+              Link to explore more of the Cornell tool from TfT hacker.
+             </div>
+            </div>
+            <div class="callout-content">
+             <p dir="auto">
+              Not a sponsored link ;)
+             </p>
+            </div>
+           </div>
+          </div>
+          <div class="el-ul">
+           <ul class="has-list-bullet">
+            <li data-line="0" dir="auto">
+             <span class="list-bullet">
+             </span>
+             <a aria-label="https://tfthacker.com/cornell-notes" class="external-link" data-tooltip-position="top" href="https://tfthacker.com/cornell-notes" rel="noopener nofollow" target="_blank">
+              tfthacker Cornell Notes Learning Vault
+             </a>
+            </li>
+            <li data-line="1" dir="auto">
+             <span class="list-bullet">
+             </span>
+             <a aria-label="https://forum.obsidian.md/t/how-to-apply-custom-css-snippets-to-obsidian-publish/13826" class="external-link" data-tooltip-position="top" href="https://forum.obsidian.md/t/how-to-apply-custom-css-snippets-to-obsidian-publish/13826" rel="noopener nofollow" target="_blank">
+              Obsidian Workaround
+             </a>
+            </li>
+            <li data-line="2" dir="auto">
+             <span class="list-bullet">
+             </span>
+             test
+            </li>
+            <li data-line="3" dir="auto">
+             <span class="list-bullet">
+             </span>
+             test
+            </li>
+            <li data-line="4" dir="auto">
+             <span class="list-bullet">
+             </span>
+             test
+            </li>
+            <li data-line="5" dir="auto">
+             <span class="list-bullet">
+             </span>
+             test
+            </li>
+            <li data-line="6" dir="auto">
+             <span class="list-bullet">
+             </span>
+             test
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+            </li>
+           </ul>
+          </div>
+          <div class="mod-footer mod-ui">
+           <div class="backlinks">
+            <div class="published-section-header">
+             <span class="published-section-header-icon">
+              <svg class="svg-icon lucide-link" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+               </path>
+               <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+               </path>
+              </svg>
+             </span>
+             <span>
+              Links to this page
+             </span>
+            </div>
+            <div class="backlink-items-container">
+             <div class="backlink-item">
+              <a class="internal-link" data-href="Nexus - Personal Knowledge Management.md" href="https://notes.nickvanbergen.com/Nexus+-+Personal+Knowledge+Management">
+               Nexus - Personal Knowledge Management
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="extra-title">
+         <span class="extra-title-text">
+          Cornell Notes in Obsidian
+         </span>
+         <span aria-label="Close page" role="button">
+          <svg class="svg-icon lucide-x" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path d="M18 6 6 18">
+           </path>
+           <path d="m6 6 12 12">
+           </path>
+          </svg>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="not-found-container" style="display: none;">
+       <div class="not-found-image">
+       </div>
+       <div class="not-found-title">
+        Not found
+       </div>
+       <div class="not-found-description">
+        This page does not exist
+       </div>
+      </div>
+      <div class="site-body-right-column">
+       <div class="site-body-right-column-inner">
+        <div class="graph-view-outer">
+         <div class="list-item published-section-header">
+          <span class="published-section-header-icon">
+           <svg class="svg-icon lucide-git-fork" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="18" r="3">
+            </circle>
+            <circle cx="6" cy="6" r="3">
+            </circle>
+            <circle cx="18" cy="6" r="3">
+            </circle>
+            <path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9">
+            </path>
+            <path d="M12 12v3">
+            </path>
+           </svg>
+          </span>
+          <span>
+           Interactive graph
+          </span>
+         </div>
+         <div class="graph-view-container">
+          <div class="graph-view node-insert-event">
+          </div>
+          <div aria-label="Expand" class="graph-icon graph-expand" data-tooltip-position="top" role="button">
+           <svg class="svg-icon lucide-arrow-up-right" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 7h10v10">
+            </path>
+            <path d="M7 17 17 7">
+            </path>
+           </svg>
+          </div>
+          <div aria-label="Global Graph" class="graph-icon graph-global" data-tooltip-position="top" role="button">
+           <svg class="svg-icon lucide-git-fork" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="18" r="3">
+            </circle>
+            <circle cx="6" cy="6" r="3">
+            </circle>
+            <circle cx="18" cy="6" r="3">
+            </circle>
+            <path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9">
+            </path>
+            <path d="M12 12v3">
+            </path>
+           </svg>
+          </div>
+         </div>
+        </div>
+        <div class="outline-view-outer node-insert-event">
+         <div class="list-item published-section-header">
+          <span class="published-section-header-icon">
+           <svg class="svg-icon lucide-list" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <line x1="8" x2="21" y1="6" y2="6">
+            </line>
+            <line x1="8" x2="21" y1="12" y2="12">
+            </line>
+            <line x1="8" x2="21" y1="18" y2="18">
+            </line>
+            <line x1="3" x2="3.01" y1="6" y2="6">
+            </line>
+            <line x1="3" x2="3.01" y1="12" y2="12">
+            </line>
+            <line x1="3" x2="3.01" y1="18" y2="18">
+            </line>
+           </svg>
+          </span>
+          <span>
+           On this page
+          </span>
+         </div>
+         <div class="outline-view">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="site-footer">
+      <a href="https://publish.obsidian.md" target="_blank">
+       Powered by Obsidian Publish
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="nav-backdrop">
+   </div>
+  </div>
+  <script src="/lib/prism.min.js" type="text/javascript">
+  </script>
+ </body>
+</html>
